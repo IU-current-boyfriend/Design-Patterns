@@ -7,9 +7,6 @@ import { Validate } from "./Validate.js";
 ((function () {
   // 获取表单
   var userForm = document.getElementById('userForm');
-  var oInputUserName = userForm.J_userName;
-  var oInputPassWord = userForm.J_passWord;
-  var oInputPhoneNumber = userForm.J_phoneNumber;
 
   const validate = new Validate();
 
